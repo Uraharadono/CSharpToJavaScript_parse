@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
-using Utility;
+using Utility.Enums;
 using Utility.Extensions;
 using Utility.Generators;
 using Utility.Mappers;

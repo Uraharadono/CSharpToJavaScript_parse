@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Text;
+using Utility.Enums;
 using Utility.Models;
 
 namespace Utility.Generators

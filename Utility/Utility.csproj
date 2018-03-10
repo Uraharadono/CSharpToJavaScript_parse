@@ -42,21 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\EGenerateOptions.cs" />
     <Compile Include="Extensions\EnumExtensions.cs" />
     <Compile Include="Extensions\LinqExtensions.cs" />
     <Compile Include="Generators\Ecma6Generator.cs" />
     <Compile Include="Generators\Ecma6WithKnockoutGenerator.cs" />
     <Compile Include="Generators\JavascriptGenerator.cs" />
     <Compile Include="Helpers.cs" />
-    <Compile Include="JsGeneratorOptions.cs" />
     <Compile Include="Mappers\ModelsMapper.cs" />
     <Compile Include="Models\FileUploadViewModel.cs" />
     <Compile Include="Models\SelectViewModel.cs" />
     <Compile Include="NamesUtility\ClassNamesUtility.cs" />
     <Compile Include="NamesUtility\PropertyNamesUtility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PropertyBag.cs" />
-    <Compile Include="TypePropertyDictionaryGenerator.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

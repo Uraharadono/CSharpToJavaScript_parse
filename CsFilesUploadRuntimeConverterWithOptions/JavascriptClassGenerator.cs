@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 using Utility;
+using Utility.Enums;
 using Utility.Models;
 
 namespace CsFilesUploadRuntimeConverterWithOptions
